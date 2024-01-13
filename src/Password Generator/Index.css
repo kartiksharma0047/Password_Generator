@@ -1,0 +1,59 @@
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -ms-flex-align: center;
+}
+#root{
+    border-radius: 15px;
+    background-color: rgb(180, 180, 180);
+    width: 40vw;
+    padding: 20px 0;
+}
+.Board h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+#Length{
+    width: 350px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+button{
+    font-size: 1.3rem;
+    border: 0;
+    padding: 0 5px;
+    background-color: royalblue;
+    color: white;
+    transition: all 0.3s;
+    margin-bottom: 30px;
+}
+button:hover{
+    background-color: rgb(31, 73, 198);
+    cursor: pointer;
+    transform: scale(1.04);
+}
+button:active{
+    background-color: black;
+    transition: none;
+}
+label{
+    font-size:1.4rem ;
+    font-weight: bolder;
+    padding: 0 10px;
+    color: rgb(166, 0, 0);
+}
+#charInput,#numInput{
+    transform: scale(1.4);
+    margin: 0 5px;
+}
